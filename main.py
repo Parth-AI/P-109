@@ -24,8 +24,8 @@ maths_l = [result for result in maths_list if result > m_std_first and result < 
 print('{}% of data with in 1 standard deviation'.format(len(maths_l) * 100.00/len(maths_list)))
 
 maths_l1 = [result for result in maths_list if result > m_std_sec_s and result < m_std_sec_e]
-print('{}% of data with in 1 standard deviation'.format(len(maths_l1) * 100.00/len(maths_list)))
+print('{}% of data with in 2 standard deviation'.format(len(maths_l1) * 100.00/len(maths_list)))
 
 maths_l2 = [result for result in maths_list if result > m_std_third_s and result < m_std_third_e]
-print('{}% of data with in 2 standard deviation'.format(len(maths_l2) * 100.00/len(maths_list)))
+print('{}% of data with in 3 standard deviation'.format(len(maths_l2) * 100.00/len(maths_list)))
 
